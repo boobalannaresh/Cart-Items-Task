@@ -15,7 +15,7 @@ function Card({ item, cartitems, handleAddToCart }) {
 
             <div className="col-lg-4 mb-2">
                 <div class="card" style={{ width: "17rem" }}>
-                    <img src="https://picsum.photos/id/1/200/200" class="card-img-top" alt="..." />
+                    <img src={`https://picsum.photos/200/150?random=${Math.floor(Math.random() * 100)}`} class="card-img-top"  alt="..." />
                     <div class="card-body">
                         <h5 class="card-title">{item.title}</h5>
                         <div className='App'>
